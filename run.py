@@ -35,15 +35,14 @@ class Population:
 
     def get_reward_on_gen(self):
         for agent in self.agents:
-            reward = 0
+            agent.reward = 0
             init_obs = self.env.reset()
             done = False
             next_action = agent.action(init_obs)
-            while done is not True:
-                reward += 1
-                observation, reward, done, _ = self.env.step(next_action)
+            while done is False:
+                observation, instant_reward, done, _ = self.env.step(next_action)
                 next_action = agent.action(observation)
-            agent.reward = reward
+                agent.reward += instant_reward
 
     def update_gen(self):
         self.order_agents()
@@ -59,6 +58,7 @@ class Population:
         pass
 
     def show_best_agent(self):
+        print(self.agents[0].reward)
         init_obs = self.env.reset()
         next_action = self.agents[0].action(init_obs)
         done = False
@@ -73,11 +73,11 @@ class Population:
 
 
 if __name__ == '__main__':
-    nb_epoch = 10
+    nb_epoch = 20
     env = gym.make('CartPole-v1')
-    pop = Population(env, 0.5, 5)
-    print(type(pop.agents[0].activation_function))
+    pop = Population(env, 0.5, 1)
     for _ in range(nb_epoch):
+        print("epoch number: ", _)
         pop.get_reward_on_gen()
         pop.show_best_agent()
         pop.update_gen()

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84a15c65-4f1f-4ee0-aac9-dfd3a7b7a56a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/rl_playground$run.coverage" NAME="run Coverage Results" MODIFIED="1589385473304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rl_playground$run.coverage" NAME="run Coverage Results" MODIFIED="1589392237856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rl_playground$tom.coverage" NAME="tom Coverage Results" MODIFIED="1588497913220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="472">
+              <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -32,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.local/share/virtualenvs/rl-playground-VDMZ6O0R/lib/python3.8/site-packages/setuptools/_vendor/pyparsing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="65865">
               <caret line="4402" column="8" selection-start-line="4402" selection-start-column="8" selection-end-line="4402" selection-end-column="8" />
             </state>
           </provider>
@@ -41,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.local/share/virtualenvs/rl-playground-VDMZ6O0R/lib/python3.8/site-packages/gym/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3349">
+            <state relative-caret-position="510">
               <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
             </state>
           </provider>
@@ -199,23 +199,24 @@
       <updated>1588363271759</updated>
       <workItem from="1588363274714" duration="5421000" />
       <workItem from="1588585316248" duration="1000" />
-      <workItem from="1589375927633" duration="6924000" />
+      <workItem from="1589375927633" duration="6979000" />
+      <workItem from="1589391540025" duration="661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12346000" />
+    <option name="totallyTimeSpent" value="13062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12332112" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124542125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.030612245" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24081632" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -237,37 +238,28 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tom.py">
+    <entry file="file://$PROJECT_DIR$/tom.py" />
+    <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="472">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/rl-playground-VDMZ6O0R/lib/python3.8/site-packages/gym/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3349">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.local/share/virtualenvs/rl-playground-VDMZ6O0R/lib/python3.8/site-packages/setuptools/_vendor/pyparsing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="65865">
           <caret line="4402" column="8" selection-start-line="4402" selection-start-column="8" selection-end-line="4402" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/rl-playground-VDMZ6O0R/lib/python3.8/site-packages/gym/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
         </state>
       </provider>
     </entry>
